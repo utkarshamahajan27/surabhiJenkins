@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/utkarshamahajan27/jenkins-automation.git'
+                git 'https://github.com/utkarshamahajan27/surabhiJenkins'
             }
         }
 
